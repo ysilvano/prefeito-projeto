@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+    <title>Conheça Seu Candidato</title>
+</head>
+<body>
+    <!-- APRESENTAÇÃO CANDIDATO -->
+    <h1>Sr. Camarada - o candidato do povo!</h1>
+    <img src="./imagem.png" alt="foto do indivíduo"><br/>
+    <p>Nascido e criado no mundo da imaginação, o Sr. Camarada é formado em Administração e Direto, e pós-graduado em Gestão Pública e Direito Previdenciário.<br/>
+    O Sr. Camarada tenta a reeleição com propostas ainda mais arrojadas, que trarão muitos benefícios ao povo Fortalezense, conforme exporemos a seguir:</p><br/>
+   
+    <!-- LISTA DE PROPOSTAS -->
+    <ul style="list-style-type:circle">
+       <li><strong>Propostas p/ Área da Saúde</strong></li>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Proposta 1</th>
+                        <th>Proposta 2</th>
+                        <th>Proposta 3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Aumentar a quantidade de postos de saúde nas regionais</td>
+                        <td>Intensificar a vacinação domiciliar</td>
+                        <td>Ampliar as opções de exames nos postos de saúde</td>
+                    </tr>
+                </tbody>
+            </table>
+       <li><strong>Propostas p/ Área de Mobilidade Urbana</strong></li>
+        <table>
+            <thead>
+                <tr>
+                    <th>Proposta 1</th>
+                    <th>Proposta 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Requalificação das vias urbanas coletoras e locais, com substituição da pavimentação para piso intertravado</td>
+                    <td>Requalificação das vias urbanas de trânsito rápido e arteriais, com substituição da pavimentação para concreto</td>
+                </tr>
+            </tbody>
+            </table>
+       <li><strong>Propostas p/ Área da Segurança</strong></li>
+       <table>
+            <thead>
+                <tr>
+                    <th>Proposta 1</th>
+                    <th>Proposta 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Aumento de postos policiais, principalmente em bairros periféricos</td>
+                    <td>Melhorar a iluminação de praças, paradas de ônibus e demais espaços públicos</td>
+                </tr>
+            </tbody>
+            </table>
+    </ul>
+    
+    <form>
+        <label for="nome-eleitor"><strong>1.Qual o seu nome?</strong></label>
+        <input id="nome-eleitor" type="text" placeholder="nome+sobrenome">
+        <br/>
+        <label for="email-eleitor"><strong>2.Qual o seu e-mail?</strong></label>
+        <input id="email-eleitor" type="email" placeholder="example@example.com">
+        <br/>
+        <label for="select-resposta"><strong>3.Você votaria nesse Candidato?</strong></label><br/>
+        <textarea rows="10" cols="50" id="propostas"></textarea>
+    </form>
+
+</body>
+</html>
